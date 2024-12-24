@@ -40,8 +40,8 @@
 		sculkwood = true
 
 	[wood_type.quark]
-		azalea = true
 		blossom = true
+		azalea = true
 
 [leaves_type]
 
