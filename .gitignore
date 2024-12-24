@@ -1,0 +1,13 @@
+
+.curseclient
+.mixin.out/class/net/minecraft/world/inventory/AbstractFurnaceMenu.class
+/crash-reports
+/debug
+ears-debug.log
+/essential
+/lightspeed-cache
+/logs
+/modernfix
+reauth.toml
+/saves
+minecraftinstance.json

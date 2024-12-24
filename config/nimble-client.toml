@@ -1,0 +1,12 @@
+enable = true
+#Range: 0.1 ~ 10.0
+transitionSpeed = 1.0
+nimbleMounting = true
+nimbleElytra = true
+elytraRollScreen = true
+#Range: 0 ~ 1000
+elytraTickDelay = 10
+#Range: 0 ~ 100
+elytraRollStrength = 20
+frontKeyToggleMode = false
+
