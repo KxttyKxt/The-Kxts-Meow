@@ -43,6 +43,15 @@
 		blossom = true
 		azalea = true
 
+	[wood_type.hexerei]
+		mahogany = true
+		willow = true
+
+	[wood_type.environmental]
+		willow = true
+		cherry = true
+		wisteria = true
+
 [leaves_type]
 
 	[leaves_type.minecraft]
@@ -94,4 +103,12 @@
 		pink_blossom = true
 		yellow_blossom = true
 		red_blossom = true
+
+	[leaves_type.hexerei]
+		mahogany = true
+		willow = true
+
+	[leaves_type.environmental]
+		willow = true
+		cherry = true
 
