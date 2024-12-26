@@ -176,17 +176,6 @@
         "value": 10000000
       }
     },
-    "additionalentityattributes:critical_bonus_damage": {
-      "enabled": false,
-      "min": {
-        "default": -1,
-        "value": -1
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
     "irons_spellbooks:blood_spell_power": {
       "enabled": false,
       "min": {
@@ -195,6 +184,17 @@
       },
       "max": {
         "default": 10,
+        "value": 10000000
+      }
+    },
+    "additionalentityattributes:critical_bonus_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1024,
         "value": 10000000
       }
     },
