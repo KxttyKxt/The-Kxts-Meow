@@ -1,1 +1,16 @@
-{}
+{
+  "main": {
+    "5": {
+      "title": "Configure Gender",
+      "icon": {
+        "stack": "{Count:1b,id:\"farmersdelight:pink_canvas_sign\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.wildfire_gender.gender_menu",
+          "toggle": false
+        }
+      }
+    }
+  }
+}

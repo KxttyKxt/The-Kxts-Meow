@@ -1,0 +1,95 @@
+{
+    "schema_version": 1,
+    "failed_reloads_per_session": 5,
+
+
+    "default_packs": [
+        "vanilla",
+        "server",
+        "mod_resources",
+        "builtin/glass_pane_fix_resources",
+
+        "file/Simple Grass Flowers v1.9.2.zip",
+        "file/SimpleRusticGlassv1.0.0.zip",
+        "bundledelight:bundledelight_resprites",
+        "file/Visual Titles.zip",
+
+        "file/FreshAnimations_v1.8.zip",
+        "file/Expressive Fresh Moves v3.0.1.zip",
+        "file/Cat_Creeper 1.18 v.2.zip",
+
+        "Everycomp Generated Pack",
+        "Supplementaries Generated Pack",
+        "quark:emote_resources",
+        "inspirations:config_resources",
+        "eatinganimations_compat",
+        "__moremcmeta-internal__"
+    ],
+    "default_overrides": {
+      "force_compatible": true
+    },
+
+
+    "pack_overrides": {
+
+      "base": [
+        "vanilla",
+        "server",
+        "mod_resources",
+        "builtin/glass_pane_fix_resources"
+      ],
+      "$base": {
+        "hidden": true,
+        "required": true,
+        "default_position": "BOTTOM",
+        "fixed_position": true
+      },
+
+      "compat": [
+        "Everycomp Generated Pack",
+        "Supplementaries Generated Pack",
+        "quark:emote_resources",
+        "inspirations:config_resources",
+        "eatinganimations_compat",
+        "__moremcmeta-internal__"
+      ],
+      "$compat": {
+        "hidden": true,
+        "required": true,
+        "default_position": "TOP",
+        "fixed_position": true
+      },
+
+      "animated": [
+        "file/FreshAnimations_v1.8.zip",
+        "file/Expressive Fresh Moves v3.0.1.zip",
+        "file/Cat_Creeper 1.18 v.2.zip"
+      ],
+      "$animated": {
+        "force_compatible": true
+      },
+
+      "optional": [
+        "file/Simple Grass Flowers v1.9.2.zip",
+        "file/SimpleRusticGlassv1.0.0.zip",
+        "bundledelight:bundledelight_resprites",
+        "file/Visual Titles.zip"
+      ],
+      "$optional": {
+        "force_compatible": true
+      },
+
+      "clutter": [
+        "builtin/default_ctm_resources",
+        "file/Quark Programmer Art.zip",
+        "programer_art",
+        "black_icons",
+        "classic_icons",
+        "white_icons"
+      ],
+      "$clutter": {
+        "hidden": true
+      }
+
+    }
+  }
