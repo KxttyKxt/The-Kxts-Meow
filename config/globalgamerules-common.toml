@@ -78,8 +78,6 @@
 	universal_anger = false
 	#Non Vanilla gamerule: 'doSeasonCycle'
 	do_season_cycle = true
-	#Non Vanilla gamerule: 'puffish_skills:announceNewPoints'
-	"puffish_skills:announce_new_points" = true
 	#Non Vanilla gamerule: 'kqRuleArmorEffectsBool'
 	kq_rule_armor_effects_bool = true
 	#Non Vanilla gamerule: 'kqRuleBadPatchSpawnChanceInt'
