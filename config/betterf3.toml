@@ -15,15 +15,6 @@
 	always_show_tps = false
 
 [[modules_left]]
-	name = "minecraft"
-	name_color = 10506797
-	value_color = 43520
-	enabled = true
-
-	[modules_left.lines]
-		minecraft = true
-
-[[modules_left]]
 	name = "fps"
 	color_high = 5635925
 	color_med = 16777045
@@ -68,41 +59,6 @@
 		slime_chunk = true
 
 [[modules_left]]
-	name = "chunks"
-	name_color = 43775
-	value_color = 16777045
-	chunks_enabled_color = 5635925
-	chunks_disabled_color = 16733525
-	total_chunks_color = 16755200
-	enabled = true
-
-	[modules_left.lines]
-		chunk_sections = true
-		chunk_culling = true
-		pending_chunks = true
-		pending_uploads = true
-		available_buffers = true
-		client_chunk_cache = true
-		loaded_chunks = true
-		loaded_chunks_server = true
-		forceloaded_chunks = true
-		spawn_chunks = true
-		chunk_file = true
-
-[[modules_left]]
-	name = "help"
-	name_color = 16645526
-	value_color = 5636095
-	enabled_color = 5635925
-	disabled_color = 16733525
-	enabled = true
-
-	[modules_left.lines]
-		pie_graph = true
-		fps_tps = true
-		help = true
-
-[[modules_left]]
 	name = "empty"
 	empty_lines = 1
 	enabled = true
@@ -111,13 +67,15 @@
 		nothing = true
 
 [[modules_left]]
-	name = "miscleft"
-	name_color = 16645526
-	value_color = 5636095
+	name = "server"
+	name_color = 11184810
+	value_color = 16777045
 	enabled = true
 
 	[modules_left.lines]
-		misc_left = true
+		server_tick = true
+		packets_sent = true
+		packets_received = true
 
 [[modules_right]]
 	name = "system"
@@ -138,13 +96,29 @@
 		gpu_driver = true
 
 [[modules_right]]
-	name = "miscright"
-	name_color = 16645526
+	name = "graphics"
+	name_color = 16755200
 	value_color = 5636095
 	enabled = true
 
 	[modules_right.lines]
-		misc_right = true
+		render_distance = true
+		graphics = true
+		clouds = true
+		biome_blend_radius = true
+		shader = true
+
+[[modules_right]]
+	name = "sound"
+	name_color = 16755200
+	value_color = 5636095
+	maximum_color = 43690
+	enabled = true
+
+	[modules_right.lines]
+		sounds = true
+		ambient_sounds = true
+		mood = true
 
 [[modules_right]]
 	name = "empty"

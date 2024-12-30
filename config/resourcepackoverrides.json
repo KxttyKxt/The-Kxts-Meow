@@ -8,11 +8,14 @@
         "server",
         "mod_resources",
         "builtin/glass_pane_fix_resources",
+        "bundledelight:bundledelight_resprites",
+        "file/updated_aquaculture-1.0.zip",
+        "file/Visual Titles.zip",
 
+        "file/Serified Font v1.1 f1-34.zip",
         "file/Simple Grass Flowers v1.9.2.zip",
         "file/SimpleRusticGlassv1.0.0.zip",
-        "bundledelight:bundledelight_resprites",
-        "file/Visual Titles.zip",
+        "file/cassette music discs 1.18.x v1.2.zip",
 
         "file/FreshAnimations_v1.8.zip",
         "file/Expressive Fresh Moves v3.0.1.zip",
@@ -36,7 +39,11 @@
         "vanilla",
         "server",
         "mod_resources",
-        "builtin/glass_pane_fix_resources"
+        "builtin/glass_pane_fix_resources",
+        
+        "bundledelight:bundledelight_resprites",
+        "file/updated_aquaculture-1.0.zip",
+        "file/Visual Titles.zip"
       ],
       "$base": {
         "hidden": true,
@@ -70,10 +77,10 @@
       },
 
       "optional": [
+        "file/Serified Font v1.1 f1-34.zip",
         "file/Simple Grass Flowers v1.9.2.zip",
         "file/SimpleRusticGlassv1.0.0.zip",
-        "bundledelight:bundledelight_resprites",
-        "file/Visual Titles.zip"
+        "file/cassette music discs 1.18.x v1.2.zip"
       ],
       "$optional": {
         "force_compatible": true
