@@ -6,7 +6,7 @@
 	// Whether to add local marker for the spot where the player died.
 	"autoDeathMarker": true,
 	// Whether to add global markers for NPC villages.
-	"autoVillageMarkers": true,
+	"autoVillageMarkers": false,
 	// Whether to add global markers for Nether Portals.
 	"autoNetherPortalMarkers": true,
 	// Player will need to craft atlas item to use atlas.

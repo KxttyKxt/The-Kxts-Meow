@@ -16,6 +16,7 @@
         "file/Simple Grass Flowers v1.9.2.zip",
         "file/SimpleRusticGlassv1.0.0.zip",
         "file/cassette music discs 1.18.x v1.2.zip",
+        "file/Fancy, GUI Overhaul v0.1.2.8.zip",
 
         "file/FreshAnimations_v1.8.zip",
         "file/Expressive Fresh Moves v3.0.1.zip",
@@ -80,7 +81,8 @@
         "file/Serified Font v1.1 f1-34.zip",
         "file/Simple Grass Flowers v1.9.2.zip",
         "file/SimpleRusticGlassv1.0.0.zip",
-        "file/cassette music discs 1.18.x v1.2.zip"
+        "file/cassette music discs 1.18.x v1.2.zip",
+        "file/Fancy, GUI Overhaul v0.1.2.8.zip"
       ],
       "$optional": {
         "force_compatible": true
