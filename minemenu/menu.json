@@ -1,5 +1,17 @@
 {
   "main": {
+    "2": {
+      "title": "Open Map",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:map\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.openatlas.desc",
+          "toggle": false
+        }
+      }
+    },
     "5": {
       "title": "Configure Gender",
       "icon": {
