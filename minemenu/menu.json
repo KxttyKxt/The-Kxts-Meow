@@ -1,14 +1,73 @@
 {
+  "Horse": {
+    "2": {
+      "title": "Horse Cart Action",
+      "icon": {
+        "stack": "{Count:1b,id:\"astikorcarts:animal_cart\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.astikorcarts.desc",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Horse Stats",
+      "icon": {
+        "stack": "{Count:1b,id:\"farmersdelight:horse_feed\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.showstats.desc",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "Set Horse",
+      "icon": {
+        "stack": "{Count:1b,id:\"majruszsaccessories:horseshoe\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.sethorse.desc",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Call Horse",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:lead\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.callhorse.desc",
+          "toggle": false
+        }
+      }
+    }
+  },
   "main": {
+    "1": {
+      "title": "Appearance Settings",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:pink_stained_glass_pane\"}"
+      },
+      "action": {
+        "category": "Shaders"
+      }
+    },
     "2": {
       "title": "Open Map",
       "icon": {
-        "stack": "{Count:1b,id:\"inspirations:north_compass\"}"
+        "stack": "{Count:1b,id:\"minecraft:compass\"}"
       },
       "action": {
         "key": {
           "key": "key.openatlas.desc",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -36,18 +95,6 @@
         }
       }
     },
-    "5": {
-      "title": "Configure Gender",
-      "icon": {
-        "stack": "{Count:1b,id:\"farmersdelight:pink_canvas_sign\"}"
-      },
-      "action": {
-        "key": {
-          "key": "key.wildfire_gender.gender_menu",
-          "toggle": false
-        }
-      }
-    },
     "6": {
       "title": "Pick Block",
       "icon": {
@@ -60,14 +107,109 @@
         }
       }
     },
-    "9": {
-      "title": "Interact with Horse Cart",
+    "7": {
+      "title": "Toggle Spyglass Zoom",
       "icon": {
-        "stack": "{Count:1b,id:\"astikorcarts:supply_cart\"}"
+        "stack": "{Count:1b,id:\"minecraft:spyglass\"}"
       },
       "action": {
         "key": {
-          "key": "key.astikorcarts.desc",
+          "key": "key.spyglass-improvements.use",
+          "toggle": true
+        }
+      }
+    },
+    "8": {
+      "title": "Death History",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:skeleton_skull\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.corpse.death_history",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Horse Actions",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:leather_horse_armor\"}"
+      },
+      "action": {
+        "category": "Horse"
+      }
+    }
+  },
+  "Shaders": {
+    "0": {
+      "title": "Equipment Display Menu",
+      "icon": {
+        "stack": "{Count:1b,id:\"knight_quest:kq_sword_paladin\",tag:{Damage:0}}"
+      },
+      "action": {
+        "key": {
+          "key": "key.weaponmaster_ydm.opengui",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Gender Settings",
+      "icon": {
+        "stack": "{Count:1b,id:\"farmersdelight:pink_canvas_sign\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.wildfire_gender.gender_menu",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Toggle First-Person Model",
+      "icon": {
+        "stack": "{Count:1b,id:\"knight_quest:kq_bull_set_chestplate\",tag:{Damage:0}}"
+      },
+      "action": {
+        "key": {
+          "key": "key.firstperson.toggle",
+          "toggle": true
+        }
+      }
+    },
+    "3": {
+      "title": "Reload Shaders",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:light_gray_stained_glass_pane\"}"
+      },
+      "action": {
+        "key": {
+          "key": "iris.keybind.reload",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "Toggle Shaders",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:green_stained_glass_pane\"}"
+      },
+      "action": {
+        "key": {
+          "key": "iris.keybind.toggleShaders",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Open Shaders Menu",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:magenta_stained_glass_pane\"}"
+      },
+      "action": {
+        "key": {
+          "key": "iris.keybind.shaderPackSelection",
           "toggle": false
         }
       }

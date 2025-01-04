@@ -9,28 +9,44 @@
         "mod_resources",
         "builtin/glass_pane_fix_resources",
 
+
+
         "bundledelight:bundledelight_resprites",
         "file/updated_aquaculture-1.0.zip",
-
         "file/Visual Titles.zip",
 
+        "file/MandalasGUI_Legacy+Modded_Dakmode_v4.6.zip",
         "file/Fancy, GUI Overhaul v0.1.2.8 (Dark).zip",
-        "file/Simple Grass Flowers v1.9.2.zip",
+        "file/Fancy Boss Bars v0.1.1.zip",
+
+        "file/Simple Grass Flowers v1.9.3.zip",
         "file/SimpleRusticGlassv1.0.0.zip",
+        "file/Fancy_Beds-v3.4.zip",
+        
         "file/cassette music discs 1.18.x v1.2.zip",
         "file/BlinkingEnderEyes_1.18_v2.zip",
+        "file/\u00A7eTorches\u00A78-\u00A7eReimagined\u00A70_\u00A78[v1.4]\u00A70.zip",
+
+
 
         "file/Serified Font v1.1 f1-34.zip",
         "file/FreshAnimations_v1.8.zip",
         "file/Expressive Fresh Moves v3.0.1.zip",
         "file/Cat_Creeper 1.18 v.2.zip",
+        "file/Astral Cats.zip",
+
+
 
         "Everycomp Generated Pack",
         "Supplementaries Generated Pack",
         "quark:emote_resources",
         "inspirations:config_resources",
         "eatinganimations_compat",
-        "__moremcmeta-internal__"
+        "__moremcmeta-internal__",
+        
+
+
+        "file/RE-FD-Compat - 1.20.1 - v.1.04.zip"
     ],
     "default_overrides": {
       "force_compatible": true
@@ -52,25 +68,6 @@
         "fixed_position": true
       },
 
-      "enhancement": [
-        "bundledelight:bundledelight_resprites",
-        "file/updated_aquaculture-1.0.zip",
-
-        "file/Visual Titles.zip",
-
-        "file/Fancy, GUI Overhaul v0.1.2.8 (Dark).zip",
-        "file/Simple Grass Flowers v1.9.2.zip",
-        "file/SimpleRusticGlassv1.0.0.zip",
-        "file/cassette music discs 1.18.x v1.2.zip",
-        "file/BlinkingEnderEyes_1.18_v2.zip"
-      ],
-      "$enhancement": {
-        "hidden": true,
-        "required": true,
-        "default_position": "BOTTOM",
-        "fixed_position": true
-      },
-
       "compat": [
         "Everycomp Generated Pack",
         "Supplementaries Generated Pack",
@@ -86,15 +83,61 @@
         "fixed_position": true
       },
 
+
+
+      "datapacks": [
+        "file/RE-FD-Compat - 1.20.1 - v.1.04.zip"
+      ],
+      "$datapacks": {
+        "hidden": true,
+        "required": true,
+        "default_position": "TOP",
+        "fixed_position": true
+      },
+
+
+      "enhancement": [
+        "bundledelight:bundledelight_resprites",
+        "file/updated_aquaculture-1.0.zip",
+        "file/Visual Titles.zip",
+
+
+        "file/MandalasGUI_Legacy+Modded_Dakmode_v4.6.zip",
+        "file/Fancy, GUI Overhaul v0.1.2.8 (Dark).zip",
+        "file/Fancy Boss Bars v0.1.1.zip",
+
+
+        "file/Simple Grass Flowers v1.9.3.zip",
+        "file/SimpleRusticGlassv1.0.0.zip",
+        "file/Fancy_Beds-v3.4.zip",
+        
+        "file/cassette music discs 1.18.x v1.2.zip",
+        "file/BlinkingEnderEyes_1.18_v2.zip",
+        "file/\u00A7eTorches\u00A78-\u00A7eReimagined\u00A70_\u00A78[v1.4]\u00A70.zip"
+      ],
+      "$enhancement": {
+        "hidden": true,
+        "required": true,
+        "default_position": "BOTTOM",
+        "fixed_position": true
+      },
+
+
+
       "optional": [
         "file/Serified Font v1.1 f1-34.zip",
         "file/FreshAnimations_v1.8.zip",
         "file/Expressive Fresh Moves v3.0.1.zip",
-        "file/Cat_Creeper 1.18 v.2.zip"
+        "file/Cat_Creeper 1.18 v.2.zip",
+        "file/Astral Cats.zip"
       ],
       "$optional": {
         "force_compatible": true
       },
+
+
+
+
 
       "clutter": [
         "builtin/default_ctm_resources",
