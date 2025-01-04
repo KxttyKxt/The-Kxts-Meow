@@ -47,11 +47,6 @@
 		mahogany = true
 		willow = true
 
-	[wood_type.environmental]
-		willow = true
-		cherry = true
-		wisteria = true
-
 [leaves_type]
 
 	[leaves_type.minecraft]
@@ -107,8 +102,4 @@
 	[leaves_type.hexerei]
 		mahogany = true
 		willow = true
-
-	[leaves_type.environmental]
-		willow = true
-		cherry = true
 

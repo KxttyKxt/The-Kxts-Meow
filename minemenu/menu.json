@@ -3,11 +3,35 @@
     "2": {
       "title": "Open Map",
       "icon": {
-        "stack": "{Count:1b,id:\"minecraft:map\"}"
+        "stack": "{Count:1b,id:\"inspirations:north_compass\"}"
       },
       "action": {
         "key": {
           "key": "key.openatlas.desc",
+          "toggle": true
+        }
+      }
+    },
+    "3": {
+      "title": "Open Backpack",
+      "icon": {
+        "stack": "{Count:1b,id:\"backpacked:backpack\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.backpack",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "Party Menu",
+      "icon": {
+        "stack": "{Count:1b,id:\"heartstone:heartstone\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.opengui.desc",
           "toggle": false
         }
       }
@@ -20,6 +44,30 @@
       "action": {
         "key": {
           "key": "key.wildfire_gender.gender_menu",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "Pick Block",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:grass_block\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.pickItem",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Interact with Horse Cart",
+      "icon": {
+        "stack": "{Count:1b,id:\"astikorcarts:supply_cart\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.astikorcarts.desc",
           "toggle": false
         }
       }
