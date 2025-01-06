@@ -50,6 +50,18 @@
     }
   },
   "main": {
+    "0": {
+      "title": "Pick Block",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:grass_block\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.pickItem",
+          "toggle": false
+        }
+      }
+    },
     "1": {
       "title": "Appearance Settings",
       "icon": {
@@ -96,15 +108,12 @@
       }
     },
     "6": {
-      "title": "Pick Block",
+      "title": "Debug",
       "icon": {
-        "stack": "{Count:1b,id:\"minecraft:grass_block\"}"
+        "stack": "{Count:1b,id:\"supplementaries:wrench\",tag:{Damage:0}}"
       },
       "action": {
-        "key": {
-          "key": "key.pickItem",
-          "toggle": false
-        }
+        "category": "Debug"
       }
     },
     "7": {
@@ -210,6 +219,32 @@
       "action": {
         "key": {
           "key": "iris.keybind.shaderPackSelection",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "Debug": {
+    "4": {
+      "title": "Toggle Entity Culling",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:tinted_glass\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.entityculling.toggle",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "Observable",
+      "icon": {
+        "stack": "{Count:1b,id:\"endrem:evil_eye\",tag:{Damage:0}}"
+      },
+      "action": {
+        "key": {
+          "key": "key.observable.profile",
           "toggle": false
         }
       }

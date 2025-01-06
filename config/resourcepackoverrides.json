@@ -118,7 +118,6 @@
       "$enhancement": {
         "hidden": true,
         "required": true,
-        "default_position": "BOTTOM",
         "fixed_position": true
       },
 
