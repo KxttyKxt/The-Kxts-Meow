@@ -2,7 +2,7 @@
   "dollEnabled": true,
   "location": "TOP_LEFT",
   "dollXOffset": -3,
-  "dollYOffset": 35,
+  "dollYOffset": 100,
   "dollSize": 11,
   "dollLookingSides": 20,
   "dollLookingUpDown": -20,
