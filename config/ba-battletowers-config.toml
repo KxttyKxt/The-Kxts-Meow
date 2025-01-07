@@ -1,9 +1,9 @@
 
 ["General Settings -- Negative values are ignored"]
 	#The minimum possible distance between Land Towers measured in chunks. (due to structure changes in 1.18.2 there is now a self imposed 9 chunk minimum. Default: 20 Chunks
-	"Land minimum separation" = 20
+	"Land minimum separation" = 40
 	#The minimum possible distance between Ocean Towers measured in chunks. (due to structure changes in 1.18.2 there is now a self imposed 6 chunk minimum. Default: 16 Chunks
-	"Ocean minimum separation" = 16
+	"Ocean minimum separation" = 32
 	#Minimum distance from spawn a Tower can be measured in chunks (Applies to X and Z). Default: 25 chunks 
 	"First Tower Distance" = 25
 	#Whether to include acceptable Terralith biomes during the tower's Biome check.
@@ -49,7 +49,7 @@
 	#Range: 0.5 ~ 1.0
 	"Percent of Ocean Tower to destroy" = 1.0
 	#Makes the Ocean trench around the Ocean tower much smaller, reducing the lag on load
-	"Small Ocean Trench T/F" = false
+	"Small Ocean Trench T/F" = true
 
 ["Crash-able settings -- If you edit these, and the game crashes, its on you"]
 	#A list of mob ids of possible mobs to spawn in spawners inside the Land tower. Must contain at least one value
