@@ -107,10 +107,22 @@
         }
       }
     },
+    "5": {
+      "title": "Voice Chat Menu",
+      "icon": {
+        "stack": "{Count:1b,id:\"minecraft:music_disc_otherside\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.voice_chat",
+          "toggle": true
+        }
+      }
+    },
     "6": {
       "title": "Debug",
       "icon": {
-        "stack": "{Count:1b,id:\"supplementaries:wrench\",tag:{Damage:0}}"
+        "stack": "{Count:1b,id:\"supplementaries:cog_block\"}"
       },
       "action": {
         "category": "Debug"

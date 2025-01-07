@@ -15,8 +15,7 @@
         "file/updated_aquaculture-1.0.zip",
         "file/Visual Titles.zip",
 
-        "file/MandalasGUI_Legacy+Modded_Dakmode_v4.6.zip",
-        "file/Fancy, GUI Overhaul v0.1.2.8 (Dark).zip",
+        "file/Fancy, GUI Overhaul v0.1.2.8.zip",
         "file/Fancy Boss Bars v0.1.1.zip",
 
         "file/Simple Grass Flowers v1.9.3.zip",
@@ -30,10 +29,16 @@
 
 
         "file/Serified Font v1.1 f1-34.zip",
+        "file/Astral Cats.zip",
+        "lowerres",
+
         "file/FreshAnimations_v1.8.zip",
         "file/Expressive Fresh Moves v3.0.1.zip",
+
         "file/Cat_Creeper 1.18 v.2.zip",
-        "file/Astral Cats.zip",
+
+        "file/Better_Dogs_V0.41.zip",
+        "file/Better_Cats_V0.09.zip",
 
 
 
@@ -102,8 +107,7 @@
         "file/Visual Titles.zip",
 
 
-        "file/MandalasGUI_Legacy+Modded_Dakmode_v4.6.zip",
-        "file/Fancy, GUI Overhaul v0.1.2.8 (Dark).zip",
+        "file/Fancy, GUI Overhaul v0.1.2.8.zip",
         "file/Fancy Boss Bars v0.1.1.zip",
 
 
@@ -125,10 +129,16 @@
 
       "optional": [
         "file/Serified Font v1.1 f1-34.zip",
+        "file/Astral Cats.zip",
+        "lowerres",
+
         "file/FreshAnimations_v1.8.zip",
         "file/Expressive Fresh Moves v3.0.1.zip",
+
         "file/Cat_Creeper 1.18 v.2.zip",
-        "file/Astral Cats.zip"
+
+        "file/Better_Dogs_V0.41.zip",
+        "file/Better_Cats_V0.09.zip"
       ],
       "$optional": {
         "force_compatible": true
@@ -144,7 +154,8 @@
         "programer_art",
         "black_icons",
         "classic_icons",
-        "white_icons"
+        "white_icons",
+        "pixelaccurate"
       ],
       "$clutter": {
         "hidden": true
