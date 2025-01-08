@@ -38,6 +38,10 @@
     "show_tree_block_counts": true,
     "show_num_chops_remaining": true
   },
+  "strawgolem": {
+    "lifespan": true,
+    "hunger": true
+  },
   "jade": {
     "block_states": false,
     "entity_armor": true,

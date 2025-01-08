@@ -48,8 +48,8 @@
 	"Metal Buttons" = true
 	"Jukebox Automation" = true
 	"Iron Rod" = true
-	Gravisand = true
-	"Feeding Trough" = true
+	Gravisand = false
+	"Feeding Trough" = false
 	"Ender Watcher" = true
 	"Dispensers Place Blocks" = true
 	Chute = true
@@ -93,7 +93,7 @@
 	"Soul Sandstone" = true
 	Shingles = true
 	"Shear Vines" = true
-	Rope = true
+	Rope = false
 	"Oriental Palette" = true
 	"Nether Brick Fence Gate" = true
 	"More Stone Variants" = true
@@ -384,7 +384,7 @@
 	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
 	"Snow Golem Player Heads" = true
-	"Simple Harvest" = true
+	"Simple Harvest" = false
 	"Sign Editing" = true
 	"Replace Scaffolding" = true
 	"Reacharound Placing" = true
@@ -398,7 +398,7 @@
 	"Grab Chickens" = true
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
-	Emotes = true
+	Emotes = false
 	"Dragon Scales" = true
 	"Double Door Opening" = true
 	"Compasses Work Everywhere" = true
@@ -1550,13 +1550,13 @@
 		"Vertical Shift" = 0
 
 [oddities]
-	"Totem Of Holding" = true
-	"Tiny Potato" = true
-	Pipes = true
+	"Totem Of Holding" = false
+	"Tiny Potato" = false
+	Pipes = false
 	"Matrix Enchanting" = true
-	Magnets = true
+	Magnets = false
 	Crate = true
-	Backpack = true
+	Backpack = false
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
@@ -1650,7 +1650,7 @@
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
 		"Super Op Mode" = false
-		"Enable Ravager Hide" = true
+		"Enable Ravager Hide" = false
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5

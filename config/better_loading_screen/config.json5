@@ -24,7 +24,7 @@
 	   Declares the background color of the loading screen.
 	   Default: #EF323D
 	*/
-	backgroundColor: "#EF323D",
+	backgroundColor: "#202020",
 	/* 
 	   Declares the bar color of the loading screen.
 	   Default: #FFFFFF
