@@ -32,3 +32,5 @@ ops.json
 servers.dat
 servers.essential.dat
 whitelist.json
+TrashSlotSaveState.json
+servers.dat_old
