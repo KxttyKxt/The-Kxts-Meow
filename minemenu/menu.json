@@ -108,14 +108,14 @@
       }
     },
     "5": {
-      "title": "Voice Chat Menu",
+      "title": "Rotation Lock",
       "icon": {
-        "stack": "{Count:1b,id:\"minecraft:music_disc_otherside\"}"
+        "stack": "{Count:1b,id:\"minecraft:spruce_stairs\"}"
       },
       "action": {
         "key": {
-          "key": "key.voice_chat",
-          "toggle": true
+          "key": "quark.keybind.lock_rotation",
+          "toggle": false
         }
       }
     },
