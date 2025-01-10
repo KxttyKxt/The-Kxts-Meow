@@ -4,7 +4,7 @@
 	#Options for Personality keybindings
 	[client.keybindings]
 		#If true, crawling will be toggled on or off instead of the keybinding being held down. (Default: false)
-		toggleCrawl = false
+		toggleCrawl = true
 		#If true, sitting will be toggled on or off instead of the keybinding being held down. (Default: true)
 		toggleSitting = true
 

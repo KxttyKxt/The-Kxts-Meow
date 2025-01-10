@@ -11,7 +11,7 @@
 	#Whether or not to use the simple UI
 	"Use Simple UI" = false
 	#The point to anchor the UI to.
-	"UI Anchor" = "top-left"
+	"UI Anchor" = "bottom-left"
 	#Whether or not to hide yourself in the party list
 	"Hide Self" = true
 	#Whether or not to hide your own GUI.

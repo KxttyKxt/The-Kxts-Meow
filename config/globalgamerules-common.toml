@@ -43,8 +43,6 @@
 	forgive_dead_players = true
 	#Whether the player should take damage when inside powder snow.
 	freeze_damage = true
-	#Whether the player should keep items and experience in their inventory after death .
-	keep_inventory = false
 	#Whether to log admin commands to server log.
 	log_admin_commands = true
 	#The maximum length of a chain of commands that can be executed during one tick. Applies to command blocks and functions.
@@ -59,7 +57,7 @@
 	natural_regeneration = true
 	#What percentage of players must sleep to skip the night.
 	#Range: > 0
-	players_sleeping_percentage = 100
+	players_sleeping_percentage = 1
 	#How often a random block tick occurs (such as plant growth, leaf decay, etc.) per chunk section per game tick. 0 and negative values disables random ticks, higher numbers increase random ticks. Setting to a high integer results in high speeds of decay and growth. Numbers over 4096 make plant growth or leaf decay instantaneous.
 	#Range: > 0
 	random_tick_speed = 3
@@ -99,6 +97,8 @@
 	#Non Vanilla gamerule: 'kqRuleSmallEssenceDropChanceInt'
 	#Range: > 0
 	kq_rule_small_essence_drop_chance_int = 100
+	#Whether the player should keep items and experience in their inventory after death .
+	keep_inventory = false
 
 #Configs related to difficult changes
 [difficulty]
@@ -118,7 +118,7 @@
 #A collection of misc configs
 [misc]
 	#If gamerules should be saved to config on world unload
-	save_gamerules = true
+	save_gamerules = false
 	#A comma separated list of commands to run on world join, @p is replaced with joining player name, command is run by the server
 	#Example: default_commands = ["/tellraw @p [\"\",{\"text\":\"Hi \"},{\"text\":\"@p\",\"color\":\"aqua\"}]"]
 	default_commands = []
