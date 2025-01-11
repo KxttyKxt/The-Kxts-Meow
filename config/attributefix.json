@@ -11,17 +11,6 @@
         "value": 10000000
       }
     },
-    "forge:step_height_addition": {
-      "enabled": false,
-      "min": {
-        "default": -512,
-        "value": -512
-      },
-      "max": {
-        "default": 512,
-        "value": 10000000
-      }
-    },
     "irons_spellbooks:ender_spell_power": {
       "enabled": false,
       "min": {
@@ -30,6 +19,17 @@
       },
       "max": {
         "default": 10,
+        "value": 10000000
+      }
+    },
+    "forge:step_height_addition": {
+      "enabled": false,
+      "min": {
+        "default": -512,
+        "value": -512
+      },
+      "max": {
+        "default": 512,
         "value": 10000000
       }
     },
@@ -418,17 +418,6 @@
         "value": 10000000
       }
     },
-    "forge:swim_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
     "irons_spellbooks:max_mana": {
       "enabled": false,
       "min": {
@@ -437,6 +426,17 @@
       },
       "max": {
         "default": 10000,
+        "value": 10000000
+      }
+    },
+    "forge:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
         "value": 10000000
       }
     },

@@ -93,6 +93,27 @@
 		packets_sent = true
 		packets_received = true
 
+[[modules_left]]
+	name = "empty"
+	empty_lines = 1
+	enabled = true
+
+	[modules_left.lines]
+		nothing = true
+
+[[modules_left]]
+	name = "help"
+	name_color = 16645526
+	value_color = 5636095
+	enabled_color = 5635925
+	disabled_color = 16733525
+	enabled = true
+
+	[modules_left.lines]
+		pie_graph = true
+		fps_tps = true
+		help = true
+
 [[modules_right]]
 	name = "system"
 	name_color = 16755200

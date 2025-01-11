@@ -11,34 +11,321 @@
         "mobCap": 16,
         "mobCapRange": 192
     },
+
+
     "biomeGroups": {
-        "deserts": ["minecraft:badlands", "minecraft:minecraft:wooded_badlands", "minecraft:eroded_badlands", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:windswept_savanna", "minecraft:desert"],
-        "jungles": ["minecraft:jungle", "minecraft:sparse_jungle", "minecraft:bamboo_jungle"],
-        "temperate": ["minecraft:plains","minecraft:sunflower_plains", "minecraft:forest", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:dark_forest", "minecraft:mushroom_fields"],
-        "shores": ["minecraft:beach","minecraft:snowy_beach", "minecraft:stony_shore"],
-        "swamps": ["minecraft:swamp", "minecraft:mangrove_swamp"],
-        "cold": ["minecraft:windswept_hills", "minecraft:windswept_gravelly_hills", "minecraft:windswept_forest", "minecraft:grove", "minecraft:meadow", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:jagged_peaks", "minecraft:stony_peaks", "minecraft:snowy_taiga"],
-        "snowy": [ "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:snowy_slopes", "minecraft:snowy_beach"],
-        "mountains": ["minecraft:windswept_hills", "minecraft:windswept_gravelly_hills", "minecraft:windswept_forest", "minecraft:grove", "minecraft:meadow", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:jagged_peaks", "minecraft:stony_peaks"],
-        "forests": ["minecraft:forest", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:dark_forest", "minecraft:mushroom_fields", "minecraft:taiga"],
-        "warmForests": ["minecraft:forest", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:dark_forest", "minecraft:mushroom_fields"],
-        "oldForests": ["minecraft:old_growth_spruce_taiga", "minecraft:old_growth_pine_taiga"],
-        "snowyForests": ["minecraft:grove", "minecraft:snowy_taiga"]
+        "deserts": [
+            "minecraft:badlands", 
+            "minecraft:wooded_badlands", 
+            "minecraft:eroded_badlands", 
+            "minecraft:savanna", 
+            "minecraft:savanna_plateau", 
+            "minecraft:windswept_savanna", 
+            "minecraft:desert",
+            "regions_unexplored:dry_bushland",
+            "regions_unexplored:baobab_savanna",
+            "regions_unexplored:arid_mountains",
+            "regions_unexplored:joshua_desert",
+            "regions_unexplored:saguaro_desert",
+            "regions_unexplored:outback",
+            "regions_unexplored:steppe"
+        ],
+
+        "jungles": [
+            "minecraft:jungle", 
+            "minecraft:sparse_jungle", 
+            "minecraft:bamboo_jungle",
+            "regions_unexplored:tropics",
+            "regions_unexplored:bamboo_forest",
+            "regions_unexplored:rainforest",
+            "regions_unexplored:old_growth_rainforest",
+            "regions_unexplored:eucalyptus_forest"
+        ],
+
+        "temperate": [
+            "minecraft:plains",
+            "minecraft:sunflower_plains", 
+            "minecraft:forest", 
+            "minecraft:flower_forest", 
+            "minecraft:birch_forest", 
+            "minecraft:dark_forest", 
+            "minecraft:mushroom_fields",
+            "regions_unexplored:lupine_plains",
+            "regions_unexplored:lush_hills",
+            "regions_unexplored:flower_field",
+            "regions_unexplored:temperate_grove",
+            "regions_unexplored:grassland",
+            "regions_unexplored:flooded_plains",
+            "regions_unexplored:prairie",
+            "regions_unexplored:barley_fields",
+            "regions_unexplored:poppy_fields",
+            "regions_unexplored:shrubland",
+            "regions_unexplored:lush_delta"
+        ],
+
+        "shores": [
+            "minecraft:beach",
+            "minecraft:snowy_beach", 
+            "minecraft:stony_shore",
+            "regions_unexplored:grassy_beach",
+            "regions_unexplored:gravel_beach"
+        ],
+
+        "swamps": [
+            "minecraft:swamp", 
+            "minecraft:mangrove_swamp",
+            "regions_unexplored:fen",
+            "regions_unexplored:fungal_fen",
+            "regions_unexplored:bayou",
+            "regions_unexplored:giant_bayou"
+        ],
+
+        "cold": [
+            "minecraft:windswept_hills", 
+            "minecraft:windswept_gravelly_hills",
+            "minecraft:windswept_forest", 
+            "minecraft:grove", 
+            "minecraft:meadow", 
+            "minecraft:snowy_slopes", 
+            "minecraft:frozen_peaks", 
+            "minecraft:frozen_peaks", 
+            "minecraft:jagged_peaks", 
+            "minecraft:stony_peaks", 
+            "minecraft:snowy_taiga",
+            "minecraft:ice_spikes",
+            "regions_unexplored:spires",
+            "regions_unexplored:frozen_tundra",
+            "regions_unexplored:maple_forest",
+            "regions_unexplored:pumpkin_fields",
+            "regions_unexplored:meadow",
+            "regions_unexplored:icy_heights",
+            "regions_unexplored:autumnal_maple_forest",
+            "regions_unexplored:frozen_forest",
+            "regions_unexplored:icy_desert",
+            "regions_unexplored:boreal_forest",
+            "regions_unexplored:silver_birch_forest",
+            "regions_unexplored:mountains",
+            "regions_unexplored:pine_forest",
+            "regions_unexplored:highland_fields",
+            "regions_unexplored:cold_deciduous_forest",
+            "regions_unexplored:cold_boreal_forest",
+            "regions_unexplored:golden_boreal_forest"
+        ],
+
+        "snowy": [ 
+            "minecraft:snowy_slopes", 
+            "minecraft:frozen_peaks", 
+            "minecraft:snowy_plains", 
+            "minecraft:snowy_taiga", 
+            "minecraft:snowy_slopes", 
+            "minecraft:snowy_beach",
+            "minecraft:ice_spikes",
+            "regions_unexplored:spires",
+            "regions_unexplored:frozen_tundra",
+            "regions_unexplored:icy_heights",
+            "regions_unexplored:frozen_forest",
+            "regions_unexplored:icy_desert",
+            "regions_unexplored:cold_deciduous_forest",
+            "regions_unexplored:cold_boreal_forest"
+        ],
+
+        "mountains": [
+            "minecraft:windswept_hills", 
+            "minecraft:windswept_gravelly_hills", 
+            "minecraft:windswept_forest", 
+            "minecraft:grove", 
+            "minecraft:meadow", 
+            "minecraft:snowy_slopes", 
+            "minecraft:frozen_peaks", 
+            "minecraft:jagged_peaks", 
+            "minecraft:stony_peaks",
+            "regions_unexplored:meadow",
+            "regions_unexplored:steppe",
+            "regions_unexplored:towering_cliffs",
+            "regions_unexplored:silver_birch_forest",
+            "regions_unexplored:pine_slopes",
+            "regions_unexplored:mountains",
+            "regions_unexplored:highland_fields",
+            "regions_unexplored:chalk_cliffs"
+        ],
+
+        "forests": [
+            "minecraft:forest", 
+            "minecraft:flower_forest", 
+            "minecraft:birch_forest", 
+            "minecraft:dark_forest", 
+            "minecraft:mushroom_fields", 
+            "minecraft:taiga",
+            "regions_unexplored:orchard",
+            "regions_unexplored:alpha_grove",
+            "regions_unexplored:maple_forest",
+            "regions_unexplored:willow_forest",
+            "regions_unexplored:icy_heights",
+            "regions_unexplored:autumnal_maple_forest",
+            "regions_unexplored:frozen_forest",
+            "regions_unexplored:temperate_grove",
+            "regions_unexplored:blackwood_forest",
+            "regions_unexplored:boreal_forest",
+            "regions_unexplored:silver_birch_forest",
+            "regions_unexplored:pine_slopes",
+            "regions_unexplored:mauve_hills",
+            "regions_unexplored:mountains",
+            "regions_unexplored:pine_forest",
+            "regions_unexplored:redwoods",
+            "regions_unexplored:sparse_redwoods",
+            "regions_unexplored:deciduous_forest",
+            "regions_unexplored:cold_deciduous_forest",
+            "regions_unexplored:cold_boreal_forest",
+            "regions_unexplored:golden_boreal_forest",
+            "regions_unexplored:cherry_hills"
+        ],
+
+        "warmForests": [
+            "minecraft:forest", 
+            "minecraft:flower_forest", 
+            "minecraft:dark_forest", 
+            "minecraft:mushroom_fields",
+            "regions_unexplored:orchard",
+            "regions_unexplored:alpha_grove",
+            "regions_unexplored:willow_forest",
+            "regions_unexplored:temperate_grove",
+            "regions_unexplored:redwoods",
+            "regions_unexplored:sparse_redwoods",
+            "regions_unexplored:deciduous_forest"
+        ],
+
+        "oldForests": [
+            "minecraft:old_growth_spruce_taiga", 
+            "minecraft:old_growth_pine_taiga",
+            "minecraft:old_growth_birch_forest",
+            "regions_unexplored:old_growth_rainforest",
+            "regions_unexplored:giant_bayou",
+            "regions_unexplored:mauve_hills"
+        ],
+
+        "snowyForests": [
+            "minecraft:grove", 
+            "minecraft:snowy_taiga",
+            "regions_unexplored:cold_deciduous_forest",
+            "regions_unexplored:cold_boreal_forest",
+            "regions_unexplored:frozen_forest"
+        ]
     },
+
+
     "itemGroups": {
-        "flowerItems": ["sugar", "dandelion", "poppy", "blue_orchid", "allium", "azure_bluet", "red_tulip", "orange_tulip", "white_tulip", "pink_tulip", "oxeye_daisy", "cornflower", "lily_of_the_valley", "lilac", "rose_bush", "peony", "flowering_azalea_leaves"],
-        "grassItems": ["hay", "grass", "fern", "tall_grass", "large_fern", "bamboo"],
-        "leafItems": ["oak_leaves", "spruce_leaves", "birch_leaves", "jungle_leaves", "acacia_leaves", "dark_oak_leaves", "azalea_leaves", "flowering_azalea_leaves", "lily_pad", "small_dripleaf", "big_dripleaf"],
-        "mushroomItems": ["brown_mushroom", "red_mushroom", "crimson_fungus", "warped_fungus"],
-        "rootItems": ["cave_vines", "vines", "hanging_roots", "glow_lichen", "crimson_roots", "warped_roots", "nether_wart", "cactus"],
-        "seedItems": ["wheat_seeds", "melon_seeds", "pumpkin_seeds", "beetroot_seeds", "sweet_berries"],
-        "vegetableItems": ["potato", "carrot", "beetroot"],
-        "fruitItems": ["sweet_berries", "melon_slice", "apple", "glow_berries"],
-        "seaweedItems": ["seagrass", "kelp", "tall_seagrass"],
-        "fishItems": ["salmon", "cod", "tropical_fish", "pufferfish"],
-        "meatItems": ["rabbit", "chicken", "mutton", "beef", "porkchop", "egg"],
-        "scavengerItems": ["egg", "rotten_flesh", "spider_eye"]
+        "flowerItems": [
+            "sugar", 
+            "dandelion", 
+            "poppy", 
+            "blue_orchid", 
+            "allium", 
+            "azure_bluet", 
+            "red_tulip", 
+            "orange_tulip", 
+            "white_tulip", 
+            "pink_tulip", 
+            "oxeye_daisy", 
+            "cornflower", 
+            "lily_of_the_valley", 
+            "lilac", 
+            "rose_bush", 
+            "peony", 
+            "flowering_azalea_leaves"
+        ],
+
+        "grassItems": [
+            "hay", 
+            "grass", 
+            "fern", 
+            "tall_grass", 
+            "large_fern", 
+            "bamboo"
+        ],
+
+        "leafItems": [
+            "oak_leaves", 
+            "spruce_leaves", 
+            "birch_leaves", 
+            "jungle_leaves", 
+            "acacia_leaves", 
+            "dark_oak_leaves", 
+            "azalea_leaves", 
+            "flowering_azalea_leaves", 
+            "lily_pad", 
+            "small_dripleaf", 
+            "big_dripleaf"
+        ],
+
+        "mushroomItems": [
+            "brown_mushroom", 
+            "red_mushroom", 
+            "crimson_fungus", 
+            "warped_fungus"
+        ],
+
+        "rootItems": [
+            "cave_vines", 
+            "vines", 
+            "hanging_roots", 
+            "glow_lichen", 
+            "crimson_roots", 
+            "warped_roots", 
+            "nether_wart", 
+            "cactus"
+        ],
+
+        "seedItems": [
+            "wheat_seeds", 
+            "melon_seeds", 
+            "pumpkin_seeds", 
+            "beetroot_seeds", 
+            "sweet_berries"
+        ],
+
+        "vegetableItems": [
+            "potato", 
+            "carrot", 
+            "beetroot"
+        ],
+
+        "fruitItems": [
+            "sweet_berries", 
+            "melon_slice", 
+            "apple", 
+            "glow_berries"
+        ],
+
+        "seaweedItems": [
+            "seagrass", 
+            "kelp", 
+            "tall_seagrass"
+        ],
+
+        "fishItems": [
+            "salmon", 
+            "cod", 
+            "tropical_fish", 
+            "pufferfish"
+        ],
+
+        "meatItems": [
+            "rabbit", 
+            "chicken", 
+            "mutton", 
+            "beef", 
+            "porkchop", 
+            "egg"
+        ],
+
+        "scavengerItems": [
+            "egg", 
+            "rotten_flesh", 
+            "spider_eye"
+        ]
     },
+
+
     "itemGroupCategories": {
         "nectar": ["flowerItems", "fruitItems"],
         "leafyHerbivore": ["grassItems", "leafItems", "flowerItems"],
@@ -50,6 +337,8 @@
         "piscivore": ["seaweedItems", "fishItems"],
         "oceanScavenger": ["seaweedItems", "scavengerItems", "fishItems", "vegetableItems"]
     },
+
+
     "spawnCategories": {
         "CourierBirdSpawnSettings": {
             "shouldSpawn": true,
@@ -216,6 +505,8 @@
             "maxIn256Region": 1
         }
     },
+
+
     "mobConfig": {
         "ACENCIA": {
             "health": 28,

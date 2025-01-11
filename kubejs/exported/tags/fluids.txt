@@ -1,0 +1,58 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 11, 2025, 12:27:07 PM
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+- hexerei:quicksilver_flowing
+- hexerei:quicksilver_fluid
+
+#forge:rabbit_stew
+- inspirations:rabbit_stew
+- inspirations:flowing_rabbit_stew
+
+#forge:experience
+- cofh_core:experience
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- hexerei:blood_flowing
+- hexerei:blood_fluid
+- hexerei:tallow_flowing
+- hexerei:tallow_fluid
+- divine_weaponry:sobek_water
+- divine_weaponry:flowing_sobek_water
+- knight_quest:kq_liquid_poison
+- knight_quest:flowing_kq_liquid_poison
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#mantle:water
+- minecraft:water
+- minecraft:flowing_water
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch
+- decorative_blocks:flowing_thatch
+
+#mantle:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:honey
+- cofh_core:honey
+- inspirations:honey
+- inspirations:flowing_honey
+
+#forge:beetroot_soup
+- inspirations:beetroot_soup
+- inspirations:flowing_beetroot_soup
+
+#forge:potion
+- cofh_core:potion
+
+#forge:mushroom_stew
+- inspirations:mushroom_stew
+- inspirations:flowing_mushroom_stew

@@ -34,3 +34,6 @@ servers.essential.dat
 whitelist.json
 TrashSlotSaveState.json
 servers.dat_old
+kubejs/README.txt
+rhino.local.properties
+waila_handlers.md
