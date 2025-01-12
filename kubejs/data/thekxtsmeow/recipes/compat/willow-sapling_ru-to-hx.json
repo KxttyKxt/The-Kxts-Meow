@@ -1,0 +1,9 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [{
+    "item": "regions_unexplored:willow_sapling"
+  }],
+  "result": {
+    "item": "hexerei:willow_sapling"
+  }
+}

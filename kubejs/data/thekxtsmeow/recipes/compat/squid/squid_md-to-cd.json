@@ -1,0 +1,10 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {"item": "miners_delight:squid"}
+    
+  ],
+  "result": {
+    "item": "culturaldelights:squid"
+  }
+}

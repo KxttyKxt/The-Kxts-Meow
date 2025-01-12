@@ -1,0 +1,10 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {"item": "culturaldelights:raw_calamari"}
+    
+  ],
+  "result": {
+    "item": "miners_delight:tentacles"
+  }
+}
