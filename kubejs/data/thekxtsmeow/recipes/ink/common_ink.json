@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+
+    "key": {
+      "A": {
+        "item": "irons_spellbooks:arcane_essence"
+      },
+      "B": {
+        "item": "supplementaries:antique_ink"
+      }
+    },
+
+    "result": {
+      "item": "irons_spellbooks:common_ink"
+    }
+  }
