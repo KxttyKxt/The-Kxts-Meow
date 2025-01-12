@@ -1,0 +1,9 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [{
+    "item": "culturaldelights:eggplant"
+  }],
+  "result": {
+    "item": "culturaldelights:eggplant_seeds"
+  }
+}

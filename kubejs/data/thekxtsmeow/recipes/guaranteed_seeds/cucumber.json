@@ -1,0 +1,9 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [{
+    "item": "culturaldelights:cucumber"
+  }],
+  "result": {
+    "item": "culturaldelights:cucumber_seeds"
+  }
+}

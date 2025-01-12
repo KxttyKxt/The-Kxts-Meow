@@ -20,11 +20,9 @@ Chance = 100
     "Block{culturaldelights:cucumbers}[age=7]",
     "Block{culturaldelights:eggplants}[age=7]",
     "Block{culturaldelights:corn_upper}[age=3]",
-    "Block{farmersdelight:brown_mushroom_colony}[age=3]",
-    "Block{farmersdelight:red_mushroom_colony}[age=3]",
-    "Block{nethersdelight:crimson_fungus_colony}[age=3]",
-    "Block{nethersdelight:warped_fungus_colony}[age=3]",
     "Block{miners_delight:cave_carrots}[age=3]",
+    "Block{hexerei:sage_crop}[age=7]",
+    "Block{supplementaries:flax}[age=7,half=upper]",
 
     "Block{farmersrespite:tea_bush}[age=0]",
     "Block{farmersrespite:tea_bush}[age=1]",
@@ -32,5 +30,5 @@ Chance = 100
     "Block{farmersrespite:tea_bush}[age=3]",
 ]
 #Curiosity Mode: sneak + right click with on block to get info in chat
-Curiosity = false
+Curiosity = true
 

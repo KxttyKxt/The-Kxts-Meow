@@ -1,0 +1,9 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [{
+    "item": "supplementaries:flax"
+  }],
+  "result": {
+    "item": "supplementaries:flax_seeds"
+  }
+}

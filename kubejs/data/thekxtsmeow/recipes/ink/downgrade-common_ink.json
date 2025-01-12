@@ -1,0 +1,24 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "irons_spellbooks:common_ink"
+      }
+    ],
+    "tool": {
+      "type": "farmersdelight:tool_action",
+      "action": "pickaxe_dig"
+    },
+    "result": [
+      {
+        "item": "supplementaries:antique_ink",
+        "count": 1
+      },
+      {
+        "item": "irons_spellbooks:arcane_essence",
+        "count": 4,
+        "chance": 0.25
+      }
+    ],
+    "sound": "minecraft:block.glass.break"
+  }

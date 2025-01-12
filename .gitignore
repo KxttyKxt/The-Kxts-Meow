@@ -39,3 +39,6 @@ rhino.local.properties
 waila_handlers.md
 kubejs/data/thekxtsmeow/recipes/shaped-crafting-template.txt
 kubejs/data/thekxtsmeow/recipes/shapeless-recipe-template.txt
+hotbar.nbt
+kubejs/data/thekxtsmeow/recipes/shapeless-crafting-template.txt
+kubejs/data/thekxtsmeow/recipes/farmersdelight-cutting_tool-template.json

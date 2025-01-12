@@ -1,0 +1,9 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [{
+    "tag": "farmersrespite:tea_leaves"
+  }],
+  "result": {
+    "item": "farmersrespite:tea_seeds"
+  }
+}
