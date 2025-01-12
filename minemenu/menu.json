@@ -1,50 +1,26 @@
 {
   "Horse": {
-    "2": {
-      "title": "Horse Cart Action",
-      "icon": {
-        "stack": "{Count:1b,id:\"astikorcarts:animal_cart\"}"
-      },
-      "action": {
-        "key": {
-          "key": "key.astikorcarts.desc",
-          "toggle": false
-        }
-      }
-    },
-    "3": {
-      "title": "Horse Stats",
-      "icon": {
-        "stack": "{Count:1b,id:\"farmersdelight:horse_feed\"}"
-      },
-      "action": {
-        "key": {
-          "key": "key.showstats.desc",
-          "toggle": false
-        }
-      }
-    },
     "4": {
-      "title": "Set Horse",
+      "title": "Set Mount",
       "icon": {
         "stack": "{Count:1b,id:\"majruszsaccessories:horseshoe\"}"
       },
       "action": {
         "key": {
           "key": "key.sethorse.desc",
-          "toggle": false
+          "toggle": true
         }
       }
     },
     "5": {
-      "title": "Call Horse",
+      "title": "Call Mount",
       "icon": {
         "stack": "{Count:1b,id:\"minecraft:lead\"}"
       },
       "action": {
         "key": {
           "key": "key.callhorse.desc",
-          "toggle": false
+          "toggle": true
         }
       }
     }
@@ -72,13 +48,13 @@
       }
     },
     "2": {
-      "title": "Open Map",
+      "title": "Toggle 3rd-Person Perspective",
       "icon": {
-        "stack": "{Count:1b,id:\"minecraft:compass\"}"
+        "stack": "{Count:1b,id:\"minecraft:white_stained_glass\"}"
       },
       "action": {
         "key": {
-          "key": "key.openatlas.desc",
+          "key": "key.togglePerspective",
           "toggle": false
         }
       }
@@ -153,7 +129,7 @@
       }
     },
     "9": {
-      "title": "Horse Actions",
+      "title": "Mount/Pet Actions",
       "icon": {
         "stack": "{Count:1b,id:\"minecraft:leather_horse_armor\"}"
       },
@@ -237,6 +213,18 @@
     }
   },
   "Debug": {
+    "3": {
+      "title": "What Structure Is This?",
+      "icon": {
+        "stack": "{Count:1b,id:\"explorerscompass:explorerscompass\",tag:{}}"
+      },
+      "action": {
+        "command": {
+          "command": "/wits",
+          "clipboard": false
+        }
+      }
+    },
     "4": {
       "title": "Toggle Entity Culling",
       "icon": {
