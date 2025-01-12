@@ -3,11 +3,34 @@
 Chance = 100
 #Amount of XP given
 #Range: > 1
-"XP Amount" = 3
+"XP Amount" = 2
 #Enable simple harvesting and replanting with right click
 "Simple Harvest" = true
 #List of crops to process with their ages
-"Crops List" = ["Block{minecraft:potatoes}[age=7]", "Block{minecraft:carrots}[age=7]", "Block{minecraft:wheat}[age=7]", "Block{minecraft:beetroots}[age=3]", "Block{minecraft:nether_wart}[age=3]"]
+"Crops List" = [
+    "Block{minecraft:potatoes}[age=7]", 
+    "Block{minecraft:carrots}[age=7]", 
+    "Block{minecraft:wheat}[age=7]", 
+    "Block{minecraft:beetroots}[age=3]", 
+    "Block{minecraft:nether_wart}[age=3]",
+
+    "Block{farmersdelight:onions}[age=7]",
+    "Block{farmersdelight:rice_panicles}[age=3]",
+    "Block{farmersdelight:cabbages}[age=7]",
+    "Block{culturaldelights:cucumbers}[age=7]",
+    "Block{culturaldelights:eggplants}[age=7]",
+    "Block{culturaldelights:corn_upper}[age=3]",
+    "Block{farmersdelight:brown_mushroom_colony}[age=3]",
+    "Block{farmersdelight:red_mushroom_colony}[age=3]",
+    "Block{nethersdelight:crimson_fungus_colony}[age=3]",
+    "Block{nethersdelight:warped_fungus_colony}[age=3]",
+    "Block{miners_delight:cave_carrots}[age=3]",
+
+    "Block{farmersrespite:tea_bush}[age=0]",
+    "Block{farmersrespite:tea_bush}[age=1]",
+    "Block{farmersrespite:tea_bush}[age=2]",
+    "Block{farmersrespite:tea_bush}[age=3]",
+]
 #Curiosity Mode: sneak + right click with on block to get info in chat
 Curiosity = false
 
