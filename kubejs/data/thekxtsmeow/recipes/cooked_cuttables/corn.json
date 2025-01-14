@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "culturaldelights:smoked_corn"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "culturaldelights:popcorn"
+    },
+    {
+      "item": "culturaldelights:popcorn"
+    },
+    {
+      "item": "culturaldelights:popcorn",
+      "chance": 0.5
+    }
+  ]
+}

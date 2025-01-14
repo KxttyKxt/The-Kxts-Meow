@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "miners_delight:baked_squid"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "miners_delight:baked_tentacles",
+      "count": 3
+    },
+    {
+      "item": "miners_delight:baked_tentacles",
+      "chance": 0.5
+    }
+  ]
+}
