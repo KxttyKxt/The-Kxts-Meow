@@ -18,7 +18,7 @@
 12 : '{Count:1b,id:"heartstone:heartstone",tag:{display:{Lore:['{"text":"I feel a little warmer when"}','{"text":"I hold it near my chest... perhaps"}','{"text":"with §3§oanother heartstone§r from someone"}','{"text":"important to me, §3§ono distance would be"}','{"text":"§3§otoo great to keep us apart§r."}'],Name:'{"text":"§bHeartstone"}'}}}',
 13 : '{Count:1b,id:"minecraft:stone_axe",tag:{Damage:0}}',
 14 : '',
-15 : '{Count:1b,id:"akashictome:tome",tag:{"akashictome:data":{hexerei:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}},solapplepie:{Count:1b,id:"solapplepie:food_book"}},display:{Lore:['{"text":"It seems as though this magic book"}','{"text":"can §3§ochange forms§r to replace any"}','{"text":"§3§oguidebooks§r this world may have."}'],Name:'{"text":"§bMagical Tome"}'}}}',
+15 : '{Count:1b,id:"akashictome:tome",tag:{"akashictome:data":{hexerei:{Count:1b,id:"hexerei:book_of_shadows",tag:{"akashictome:displayName":{text:'{"translate":"item.hexerei.book_of_shadows"}'},"akashictome:is_morphing":1b,bookmarks:{},chapter:0,display:{Name:'{"translate":"akashictome.sudo_name","with":[{"color":"green","translate":"item.hexerei.book_of_shadows"}]}'},opened:0b,page:0}},mythicmounts:{Count:1b,id:"patchouli:guide_book",tag:{"akashictome:displayName":{text:'{"translate":"Mythical Mounts"}'},"akashictome:is_morphing":1b,display:{Name:'{"translate":"akashictome.sudo_name","with":[{"color":"green","translate":"Mythical Mounts"}]}'},"patchouli:book":"mythicmounts:mythical_mounts"}},solapplepie:{Count:1b,id:"solapplepie:food_book"}},"akashictome:is_morphing":1b}}',
 16 : '',
 17 : '',
 18 : '',

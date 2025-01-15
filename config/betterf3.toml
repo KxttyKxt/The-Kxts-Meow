@@ -2,9 +2,9 @@
 [general]
 	disable_mod = false
 	auto_start = false
-	space_modules = false
+	space_modules = true
 	shadow_text = true
-	animations = true
+	animations = false
 	animationSpeed = 1.0
 	fontScale = 1.0
 	background_color = 1867534416
@@ -25,14 +25,6 @@
 		fps = true
 
 [[modules_left]]
-	name = "empty"
-	empty_lines = 1
-	enabled = true
-
-	[modules_left.lines]
-		nothing = true
-
-[[modules_left]]
 	name = "coords"
 	name_color = 16733525
 	color_x = 16733525
@@ -45,14 +37,6 @@
 		block_coords = true
 		chunk_relative_coords = true
 		chunk_coords = true
-
-[[modules_left]]
-	name = "empty"
-	empty_lines = 1
-	enabled = true
-
-	[modules_left.lines]
-		nothing = true
 
 [[modules_left]]
 	name = "location"
@@ -75,14 +59,6 @@
 		slime_chunk = true
 
 [[modules_left]]
-	name = "empty"
-	empty_lines = 1
-	enabled = true
-
-	[modules_left.lines]
-		nothing = true
-
-[[modules_left]]
 	name = "server"
 	name_color = 11184810
 	value_color = 16777045
@@ -92,14 +68,6 @@
 		server_tick = true
 		packets_sent = true
 		packets_received = true
-
-[[modules_left]]
-	name = "empty"
-	empty_lines = 1
-	enabled = true
-
-	[modules_left.lines]
-		nothing = true
 
 [[modules_left]]
 	name = "help"
@@ -133,14 +101,6 @@
 		gpu_driver = true
 
 [[modules_right]]
-	name = "empty"
-	empty_lines = 1
-	enabled = true
-
-	[modules_right.lines]
-		nothing = true
-
-[[modules_right]]
 	name = "graphics"
 	name_color = 16755200
 	value_color = 5636095
@@ -154,14 +114,6 @@
 		shader = true
 
 [[modules_right]]
-	name = "empty"
-	empty_lines = 1
-	enabled = true
-
-	[modules_right.lines]
-		nothing = true
-
-[[modules_right]]
 	name = "sound"
 	name_color = 16755200
 	value_color = 5636095
@@ -172,14 +124,6 @@
 		sounds = true
 		ambient_sounds = true
 		mood = true
-
-[[modules_right]]
-	name = "empty"
-	empty_lines = 1
-	enabled = true
-
-	[modules_right.lines]
-		nothing = true
 
 [[modules_right]]
 	name = "target"
