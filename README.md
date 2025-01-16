@@ -1,7 +1,9 @@
 The Kxt's Meow 🐈
 ==
 
-📖 My girlfriend and I have very different playstyles. As she walks the globe, collecting flowers and looting chiefly non-violent stuctures, I am in the deepest, darkest dungeon exercising my inner loot goblin. Sound familiar? Then this is for you!💗 This pack's goal is to bridge these differing modes of play. This is threefold:
+📖 My girlfriend and I have very different playstyles. As she walks the globe, collecting flowers and looting chiefly non-violent stuctures, I am in the deepest, darkest dungeon exercising my inner loot goblin. Sound familiar? Then this is for you!
+
+💗 This pack's goal is to bridge these differing modes of play. This is threefold:
 
 *   I can play my way, she can play her way, and we can _both_ make meaningful progress therein.
 *   I have incentive to try things closer to her style, and she has incentive vice versa.
