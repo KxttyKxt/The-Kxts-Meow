@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:leather_boots",
+        "hexerei:witch_boots",
+        "irons_spellbooks:pumpkin_boots",
+        "irons_spellbooks:shadowwalker_boots"
+    ]
+}

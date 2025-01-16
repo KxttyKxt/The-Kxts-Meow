@@ -2,7 +2,7 @@
 #DoesPotatoTick?
 ["Living Entities Tick Settings"]
 	#If you disable this, entities will not stop ticking when they'are far from you, this mod may be useless for you too
-	OptimizeEntitiesTicking = true
+	OptimizeEntitiesTicking = false
 	#Range: > 1
 	LivingEntitiesMaxHorizontalTickDistance = 64
 	#Range: > 1
