@@ -54,7 +54,7 @@
 	#A comma-separated set of mob IDs.
 	#Example: minecraft:creeper, minecraft:spider
 	#Default: 
-	mobSet = "minecraft:rabbit, minecraft:phantom, minecraft:enderman"
+	mobSet = "minecraft:rabbit, minecraft:phantom, minecraft:enderman, mythichmounts:acencia, mythichmounts:archelon, mythichmounts:colelytra, mythichmounts:courierbird, mythichmounts:direwolf, mythichmounts:dragon, mythichmounts:firebird, mythichmounts:geckotoalizard, mythichmounts:griffon, mythichmounts:moth, mythichmounts:netherbat, mythichmounts:nightmare, mythichmounts:nudibranch, mythichmounts:ridinglizard"
 	#What happens when the attacker's entity ID appears in mobSet?
 	#May be one of:
 	#allow - The mob will be allowed to attack the player.

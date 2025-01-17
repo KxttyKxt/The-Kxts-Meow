@@ -49,3 +49,4 @@ kubejs/config/probejs.json
 kubejs/jsconfig.json
 /.vscode
 spyglass.json
+/cache
