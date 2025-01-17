@@ -1,8 +1,8 @@
 {
   "enableMod": true,
   "showHud": true,
-  "showHudWhenBlind": true,
-  "showHealingParticles": false,
+  "showHudWhenBlind": false,
+  "showHealingParticles": true,
   "showDamageParticles": true,
   "showBar": true,
   "showSecondaryBar": true,
@@ -38,6 +38,8 @@
   "blacklist": [
     "minecraft:armor_stand"
   ],
-  "barBlacklist": [],
+  "barBlacklist": [
+    "dummmmmmy:target_dummy"
+  ],
   "numberParticleBlacklist": []
 }
