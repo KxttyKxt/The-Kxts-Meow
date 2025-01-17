@@ -6,13 +6,13 @@
 	"Whether mint cookies are enabled" = true
 	"Whether banana cookies are enabled" = true
 	"Whether adzuki cookies are enabled" = true
-	"Whether vanilla cookie tiles are enabled" = false
-	"Whether strawberry cookie tiles are enabled" = false
-	"Whether chocolate cookie tiles are enabled" = false
-	"Whether honey cookie tiles are enabled" = false
-	"Whether sweet berry cookie tiles are enabled" = false
-	"Whether mint cookie tiles are enabled" = false
-	"Whether banana cookie tiles are enabled" = false
-	"Whether adzuki cookie tiles are enabled" = false
-	"Whether cookie tiles are enabled" = false
+	"Whether vanilla cookie tiles are enabled" = true
+	"Whether strawberry cookie tiles are enabled" = true
+	"Whether chocolate cookie tiles are enabled" = true
+	"Whether honey cookie tiles are enabled" = true
+	"Whether sweet berry cookie tiles are enabled" = true
+	"Whether mint cookie tiles are enabled" = true
+	"Whether banana cookie tiles are enabled" = true
+	"Whether adzuki cookie tiles are enabled" = true
+	"Whether cookie tiles are enabled" = true
 
