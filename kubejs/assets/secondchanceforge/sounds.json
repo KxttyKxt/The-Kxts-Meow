@@ -1,0 +1,9 @@
+{
+    "player.classic_hurt": {
+        "replace": true,
+        "subtitle": "Player gets a Second Chance",
+        "sounds": [
+            "minecraft:note/bell"
+        ]
+    }
+}

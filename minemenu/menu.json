@@ -213,6 +213,18 @@
     }
   },
   "Debug": {
+    "2": {
+      "title": "Akashic Tome Recovery",
+      "icon": {
+        "stack": "{Count:1b,id:\"akashictome:tome\"}"
+      },
+      "action": {
+        "command": {
+          "command": "/trigger akashic-tome-recovery",
+          "clipboard": false
+        }
+      }
+    },
     "3": {
       "title": "What Structure Is This?",
       "icon": {
