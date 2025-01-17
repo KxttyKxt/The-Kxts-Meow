@@ -1,0 +1,1 @@
+execute unless score default-gamerules modpack-data-values matches 1 run function thekxtsmeow:default-gamerules/set-gamerules
