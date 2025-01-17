@@ -1,6 +1,7 @@
 {
   "enableMod": true,
   "showHud": true,
+  "showHudWhenBlind": true,
   "showHealingParticles": false,
   "showDamageParticles": true,
   "showBar": true,
@@ -34,7 +35,9 @@
   "damageParticleColor": "#fcfcfc",
   "showInvisibleEntities": false,
   "showBosses": false,
-  "blacklist": [],
+  "blacklist": [
+    "minecraft:armor_stand"
+  ],
   "barBlacklist": [],
   "numberParticleBlacklist": []
 }
