@@ -11,32 +11,29 @@
 
 
 
-        "bundledelight:bundledelight_resprites",
-        "file/updated_aquaculture-1.0.zip",
-        "file/Visual Titles.zip",
-
-        "file/Fancy, GUI Overhaul v0.1.2.8.zip",
-        "file/Fancy Boss Bars v0.1.1.zip",
-
+        "file/VanillaTweaks_r148067_MC1.18.x.zip",
         "file/Simple Grass Flowers v1.9.3.zip",
         "file/SimpleRusticGlassv1.0.0.zip",
+        "file/Pride-BeesF1.18 1.3.zip",
         "file/Fancy_Beds-v3.4.zip",
-        
+        "file/Astral Cats.zip",
+        "file/\u00A7eTorches\u00A78-\u00A7eReimagined\u00A70_\u00A78[v1.4]\u00A70.zip",
         "file/cassette music discs 1.18.x v1.2.zip",
         "file/BlinkingEnderEyes_1.18_v2.zip",
-        "file/\u00A7eTorches\u00A78-\u00A7eReimagined\u00A70_\u00A78[v1.4]\u00A70.zip",
-
-
-
-        "file/Serified Font v1.1 f1-34.zip",
-        "file/Astral Cats.zip",
+        "file/updated_aquaculture-1.0.zip",
+        "file/SE Vanilla Consistency 1.18.2.zip",
+        "bundledelight:bundledelight_resprites",
         "lowerres",
+        "file/Visual Titles.zip",
+        "file/Serified Font v1.1 f1-34.zip",
+        "file/Fancy, GUI Overhaul v0.1.2.8.zip",
+        "file/Fancy Boss Bars v0.1.1.zip",
+        "file/[Moonsu] Better GUI for FarmingforBlockheads 2.0-1.18x.zip",
+        "file/[Moonsu] Better GUI for Villagers!.zip",
 
         "file/FreshAnimations_v1.8.zip",
         "file/Expressive Fresh Moves v3.0.1.zip",
-
         "file/Cat_Creeper 1.18 v.2.zip",
-
         "file/Better_Dogs_V0.41.zip",
         "file/Better_Cats_V0.09.zip",
 
@@ -51,7 +48,8 @@
         
 
 
-        "file/RE-FD-Compat - 1.20.1 - v.1.04.zip"
+        "file/RE-FD-Compat - 1.20.1 - v.1.04.zip",
+        "file/VanillaTweaks_c812184_MC1.18.x.zip"
     ],
     "default_overrides": {
       "force_compatible": true
@@ -90,8 +88,53 @@
 
 
 
+      "resourcepacks": [
+        "file/VanillaTweaks_r148067_MC1.18.x.zip",
+        "file/Simple Grass Flowers v1.9.3.zip",
+        "file/SimpleRusticGlassv1.0.0.zip",
+        "file/Pride-BeesF1.18 1.3.zip",
+        "file/Fancy_Beds-v3.4.zip",
+        "file/Astral Cats.zip",
+        "file/\u00A7eTorches\u00A78-\u00A7eReimagined\u00A70_\u00A78[v1.4]\u00A70.zip",
+        "file/cassette music discs 1.18.x v1.2.zip",
+        "file/BlinkingEnderEyes_1.18_v2.zip",
+        "file/updated_aquaculture-1.0.zip",
+        "file/SE Vanilla Consistency 1.18.2.zip",
+        "bundledelight:bundledelight_resprites",
+        "lowerres",
+        "file/Visual Titles.zip",
+        "file/Serified Font v1.1 f1-34.zip",
+        "file/Fancy, GUI Overhaul v0.1.2.8.zip",
+        "file/Fancy Boss Bars v0.1.1.zip",
+        "file/[Moonsu] Better GUI for FarmingforBlockheads 2.0-1.18x.zip",
+        "file/[Moonsu] Better GUI for Villagers!.zip"
+      ],
+      "$resourcepacks": {
+        "hidden": true
+      },
+
+      "anim_models": [
+        "file/FreshAnimations_v1.8.zip",
+        "file/Expressive Fresh Moves v3.0.1.zip",
+        "file/Cat_Creeper 1.18 v.2.zip",
+        "file/Better_Dogs_V0.41.zip",
+        "file/Better_Cats_V0.09.zip"
+      ],
+      "$anim_models": {
+        "force_compatible": true
+      },
+
+
+
       "datapacks": [
-        "file/RE-FD-Compat - 1.20.1 - v.1.04.zip"
+        "file/RE-FD-Compat - 1.20.1 - v.1.04.zip",
+        "file/VanillaTweaks_c812184_MC1.18.x.zip",
+        "file/spectator night vision v1.1.2 (MC 1.18.x).zip",
+        "file/spectator conduit power v1.1.2 (MC 1.18.x).zip",
+        "file/silence mobs v1.1.2 (MC 1.18.x).zip",
+        "file/larger phantoms v1.2.3 (MC 1.18.x).zip",
+        "file/kill empty boats v1.1.3 (MC 1.18.x).zip",
+        "file/afk display v1.1.2 (MC 1.18.x).zip"
       ],
       "$datapacks": {
         "hidden": true,
@@ -99,51 +142,6 @@
         "default_position": "TOP",
         "fixed_position": true
       },
-
-
-      "enhancement": [
-        "bundledelight:bundledelight_resprites",
-        "file/updated_aquaculture-1.0.zip",
-        "file/Visual Titles.zip",
-
-
-        "file/Fancy, GUI Overhaul v0.1.2.8.zip",
-        "file/Fancy Boss Bars v0.1.1.zip",
-
-
-        "file/Simple Grass Flowers v1.9.3.zip",
-        "file/SimpleRusticGlassv1.0.0.zip",
-        "file/Fancy_Beds-v3.4.zip",
-        
-        "file/cassette music discs 1.18.x v1.2.zip",
-        "file/BlinkingEnderEyes_1.18_v2.zip",
-        "file/\u00A7eTorches\u00A78-\u00A7eReimagined\u00A70_\u00A78[v1.4]\u00A70.zip"
-      ],
-      "$enhancement": {
-        "hidden": true,
-        "required": true,
-        "fixed_position": true
-      },
-
-
-
-      "optional": [
-        "file/Serified Font v1.1 f1-34.zip",
-        "file/Astral Cats.zip",
-        "lowerres",
-
-        "file/FreshAnimations_v1.8.zip",
-        "file/Expressive Fresh Moves v3.0.1.zip",
-
-        "file/Cat_Creeper 1.18 v.2.zip",
-
-        "file/Better_Dogs_V0.41.zip",
-        "file/Better_Cats_V0.09.zip"
-      ],
-      "$optional": {
-        "force_compatible": true
-      },
-
 
 
 
