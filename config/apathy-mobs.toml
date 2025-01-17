@@ -17,7 +17,7 @@
 	#Note: If a rule is not listed in the rule order, it will not be checked.
 	#Example: difficulty, revenge, playerSet
 	#Default: json, difficulty, boss, mobSet, tagSet, potionSet, playerSet, spawnType, revenge
-	ruleOrder = "boss, spawnType, revenge, difficulty"
+	ruleOrder = "boss, potionSet, mobSet, spawnType, revenge, difficulty"
 
 ["Difficulty Rule"]
 	#Comma-separated list of difficulties.
@@ -54,14 +54,14 @@
 	#A comma-separated set of mob IDs.
 	#Example: minecraft:creeper, minecraft:spider
 	#Default: 
-	mobSet = ""
+	mobSet = "minecraft:rabbit, minecraft:phantom, minecraft:enderman"
 	#What happens when the attacker's entity ID appears in mobSet?
 	#May be one of:
 	#allow - The mob will be allowed to attack the player.
 	#deny  - The mob will not be allowed to attack the player.
 	#pass  - Defer to the next rule.
 	#Default: pass
-	mobSetIncluded = "pass"
+	mobSetIncluded = "allow"
 	#What happens when the attacker's entity ID does *not* appear in mobSet?
 	#May be one of:
 	#allow - The mob will be allowed to attack the player.
@@ -94,7 +94,7 @@
 	#A set of potion effects.
 	#Example: minecraft:invisibility, minecraft:jump_boost
 	#Default: minecraft:invisibility
-	potionEffectSet = "minecraft:invisibility"
+	potionEffectSet = "minecraft:invisibility, neapolitan:harmony"
 	#Whose potion effects will be checked?
 	#May be one of:
 	#attacker - The attacking mob's potion effects will be checked.
@@ -107,7 +107,7 @@
 	#deny  - The mob will not be allowed to attack the player.
 	#pass  - Defer to the next rule.
 	#Default: pass
-	potionEffectSetIncluded = "pass"
+	potionEffectSetIncluded = "deny"
 	#What happens when the entity does not have any potion effects included in potionEffectSet?
 	#May be one of:
 	#allow - The mob will be allowed to attack the player.

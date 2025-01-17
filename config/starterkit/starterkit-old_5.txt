@@ -19,7 +19,7 @@
 13 : '{Count:1b,id:"minecraft:stone_axe",tag:{Damage:0}}',
 14 : '',
 15 : '{Count:1b,id:"akashictome:tome",tag:{"akashictome:data":{hexerei:{Count:1b,id:"hexerei:book_of_shadows",tag:{"akashictome:displayName":{text:'{"translate":"item.hexerei.book_of_shadows"}'},"akashictome:is_morphing":1b,bookmarks:{},chapter:0,display:{Name:'{"translate":"akashictome.sudo_name","with":[{"color":"green","translate":"item.hexerei.book_of_shadows"}]}'},opened:0b,page:0}},mythicmounts:{Count:1b,id:"patchouli:guide_book",tag:{"akashictome:displayName":{text:'{"translate":"Mythical Mounts"}'},"akashictome:is_morphing":1b,display:{Name:'{"translate":"akashictome.sudo_name","with":[{"color":"green","translate":"Mythical Mounts"}]}'},"patchouli:book":"mythicmounts:mythical_mounts"}},solapplepie:{Count:1b,id:"solapplepie:food_book"}},"akashictome:is_morphing":1b}}',
-16 : '{Count:1b,id:"enigmaticlegacy:the_acknowledgment"}',
+16 : '',
 17 : '',
 18 : '',
 19 : '{Count:1b,id:"waystones:warp_stone",tag:{Damage:0,display:{Lore:['{"text":"A strange energy from this stone"}','{"text":"seems to gently pull at the fabric"}','{"text":"of reality...should I find any §3§opylons"}','{"text":"with a similar power, I could probably"}','{"text":"use this to §3§obend reality around me"}','{"text":"§3§ousing those pylons as foci."}'],Name:'{"text":"§dWarp Stone"}'}}}',
