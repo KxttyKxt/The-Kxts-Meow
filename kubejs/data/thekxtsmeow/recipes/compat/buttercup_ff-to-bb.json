@@ -1,0 +1,9 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [{
+      "item": "friendsandfoes:buttercup"
+    }],
+    "result": {
+      "item": "buzzier_bees:buttercup"
+    }
+  }
