@@ -6,4 +6,4 @@ scoreboard players enable @s akashic-tome-recovery
 execute at @s run playsound minecraft:item.book.page_turn player @s ~ ~ ~
 execute at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 1 1.5
 
-tellraw @s {"text": "Enjoy your new book!", "color": "gold"}
+tellraw @s {"text": "☆ Enjoy your new book!", "color": "light_purple"}
