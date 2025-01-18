@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:glow_ink_sac"
+      },
+      {
+        "item": "minecraft:fermented_spider_eye"
+      },
+      {
+        "tag": "minecraft:coals"
+      },
+      {
+        "item": "minecraft:black_dye"
+      }
+  ],
+    "result": {
+      "item": "minecraft:ink_sac"
+    }
+  }
