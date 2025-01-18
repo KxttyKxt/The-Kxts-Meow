@@ -8,7 +8,7 @@
       "action": {
         "key": {
           "key": "key.sethorse.desc",
-          "toggle": true
+          "toggle": false
         }
       }
     },
@@ -20,7 +20,7 @@
       "action": {
         "key": {
           "key": "key.callhorse.desc",
-          "toggle": true
+          "toggle": false
         }
       }
     }

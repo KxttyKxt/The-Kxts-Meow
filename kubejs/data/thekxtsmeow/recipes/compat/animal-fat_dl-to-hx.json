@@ -1,0 +1,9 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [{
+      "item": "delightful:animal_fat"
+    }],
+    "result": {
+      "item": "hexerei:animal_fat"
+    }
+}
