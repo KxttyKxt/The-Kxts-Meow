@@ -50,3 +50,5 @@ kubejs/jsconfig.json
 /.vscode
 spyglass.json
 /cache
+config/embeddium-options.json
+config/sodium-extra-options.json
