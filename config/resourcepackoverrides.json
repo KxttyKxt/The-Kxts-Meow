@@ -4,13 +4,6 @@
 
 
     "default_packs": [
-        "vanilla",
-        "server",
-        "mod_resources",
-        "builtin/glass_pane_fix_resources",
-
-
-
         "file/VanillaTweaks_r148067_MC1.18.x.zip",
         "file/Simple Grass Flowers v1.9.3.zip",
         "file/SimpleRusticGlassv1.0.0.zip",
@@ -33,24 +26,10 @@
         "file/[Moonsu] Better GUI for Villagers!.zip",
 
         "file/FreshAnimations_v1.8.zip",
-        "file/Expressive Fresh Moves v3.0.1.zip",
+        "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
         "file/Cat_Creeper 1.18 v.2.zip",
         "file/Better_Dogs_V0.41.zip",
-        "file/Better_Cats_V0.09.zip",
-
-
-
-        "Everycomp Generated Pack",
-        "Supplementaries Generated Pack",
-        "quark:emote_resources",
-        "inspirations:config_resources",
-        "eatinganimations_compat",
-        "__moremcmeta-internal__",
-        
-
-
-        "file/RE-FD-Compat - 1.20.1 - v.1.04.zip",
-        "file/VanillaTweaks_c812184_MC1.18.x.zip"
+        "file/Better_Cats_V0.09.zip"
     ],
     "default_overrides": {
       "force_compatible": true
@@ -117,7 +96,7 @@
 
       "anim_models": [
         "file/FreshAnimations_v1.8.zip",
-        "file/Expressive Fresh Moves v3.0.1.zip",
+        "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
         "file/Cat_Creeper 1.18 v.2.zip",
         "file/Better_Dogs_V0.41.zip",
         "file/Better_Cats_V0.09.zip"
