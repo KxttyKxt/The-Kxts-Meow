@@ -47,6 +47,10 @@
 		mahogany = true
 		willow = true
 
+	[wood_type.fruittrees]
+		cherry = true
+		citrus = true
+
 [leaves_type]
 
 	[leaves_type.minecraft]
@@ -102,4 +106,16 @@
 	[leaves_type.hexerei]
 		mahogany = true
 		willow = true
+
+	[leaves_type.fruittrees]
+		cherry = true
+		redlove = true
+		mandarin = true
+		lime = true
+		citron = true
+		pomelo = true
+		orange = true
+		lemon = true
+		grapefruit = true
+		apple = true
 
