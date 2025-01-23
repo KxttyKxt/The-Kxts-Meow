@@ -34,6 +34,8 @@ Chance = 100
     "Block{neapolitan:adzuki_sprouts}[age=6,flowering=true]",
     "Block{neapolitan:adzuki_sprouts}[age=6,flowering=false]",
 
+    "Block{pineapple_delight:pineapple_crop}[age=7]",
+
     "Block{supplementaries:flax}[age=7,half=upper]",
 ]
 #Curiosity Mode: sneak + right click with on block to get info in chat
