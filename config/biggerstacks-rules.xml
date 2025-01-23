@@ -6,6 +6,7 @@
 			<condition>id = quark:ancient_tome</condition>
 
 			<condition>tag includes minecraft:music_discs</condition>
+			<condition>id = minecraft:saddle</condition>
 		</or>
 	</rule>
 
