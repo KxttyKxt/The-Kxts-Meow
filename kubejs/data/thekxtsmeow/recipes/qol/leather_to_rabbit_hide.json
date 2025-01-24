@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+
+    "key": {
+      "A": {
+        "item": "minecraft:leather"
+      },
+      "B": {
+        "item": "transmog:void_fragment"
+      }
+    },
+
+    "result": {
+      "item": "minecraft:rabbit_hide"
+    }
+  }
