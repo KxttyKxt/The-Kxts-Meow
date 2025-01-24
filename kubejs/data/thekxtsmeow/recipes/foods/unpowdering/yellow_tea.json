@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "bundledelight:powdered_yellow_tea_leaves"
+      },
+      {
+        "item": "bundledelight:powdered_yellow_tea_leaves"
+      },
+      {
+        "item": "bundledelight:powdered_yellow_tea_leaves"
+      },
+      {
+        "item": "bundledelight:powdered_yellow_tea_leaves"
+      }
+    ],
+    "result": {
+      "item": "farmersrespite:yellow_tea_leaves"
+    }
+  }

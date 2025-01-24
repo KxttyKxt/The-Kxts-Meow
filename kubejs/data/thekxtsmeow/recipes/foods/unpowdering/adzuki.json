@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "bundledelight:powdered_adzuki_beans"
+      },
+      {
+        "item": "bundledelight:powdered_adzuki_beans"
+      },
+      {
+        "item": "bundledelight:powdered_adzuki_beans"
+      },
+      {
+        "item": "bundledelight:powdered_adzuki_beans"
+      }
+    ],
+    "result": {
+      "item": "neapolitan:roasted_adzuki_beans"
+    }
+  }
