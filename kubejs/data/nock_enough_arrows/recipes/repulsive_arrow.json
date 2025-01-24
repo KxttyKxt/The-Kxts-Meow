@@ -1,0 +1,16 @@
+{
+    "type": "nock_enough_arrows:fletching",
+    "fletching": {
+      "item": "minecraft:feather"
+    },
+    "shaft": {
+      "item": "minecraft:stick"
+    },
+    "arrowhead": {
+      "tag": "irons_spellbooks:poison_focus"
+    },
+    "result": {
+      "item": "nock_enough_arrows:repulsive_arrow",
+      "count": 1
+    }
+  }
