@@ -1,6 +1,5 @@
 onEvent('recipes', event => {
-    console.log("☆ Fired the Prefab Recipe Replacements.")
-
+    
     // Dirt Blocks
     event.replaceInput(
         { input: 'prefab:block_compressed_dirt' },
