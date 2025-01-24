@@ -1,0 +1,9 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [{
+      "item": "neapolitan:milk_bottle"
+    }],
+    "result": {
+      "item": "farmersdelight:milk_bottle"
+    }
+}
