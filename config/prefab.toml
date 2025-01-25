@@ -5,7 +5,7 @@
 	#Determines if the Preview buttons in structure GUIs and other structure previews functions are enabled. Client side only.
 	"Include Structure Previews" = true
 	#Determines which starting item a player gets on first world join. Valid values for this option are: "Starting House", "Moderate House", "Nothing". Server configuration overrides client.
-	"Starting Item" = "Starting House"
+	"Starting Item" = "Nothing"
 	#Determines if the bulldozer item can create drops when it clears an area.
 	"Bulldozer Creates Drops" = true
 	#Enable Automation Options For Moderate Farm
