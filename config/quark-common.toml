@@ -237,7 +237,7 @@
 	"Hotbar Changer" = true
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
-	"Chests In Boats" = true
+	"Chests In Boats" = false
 
 	[management.quick_armor_swapping]
 		"Swap Off Hand" = true

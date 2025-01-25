@@ -231,7 +231,7 @@
 			attempts_per_patch = 35
 
 		[spawns.structures.cave_urns]
-			enabled = true
+			enabled = false
 			#Attempts at every patch to spawn 1 block. Increases average patch size
 			#Range: 1 ~ 100
 			attempts_per_patch = 4
