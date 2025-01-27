@@ -1,0 +1,78 @@
+
+[compass-behavior]
+	#Block search radius (in blocks). Large values may result in lag issues.
+	#Range: > 1
+	blocks_search_radius = 40
+	#Containers search radius (in blocks). Large values may result in lag issues.
+	#Range: > 1
+	containers_search_radius = 40
+	#Mobs search radius (in blocks).
+	#Range: > 1
+	entities_search_radius = 120
+	#How often the compass search target will be updated. Low values can cause SERIOUS performance problems.
+	#Range: > 1
+	search_rate = 50
+	#Will experience be drained for using the compass?
+	xp_drain = false
+	#How much XP will be drained from player when Compass is active?
+	#Range: > 0
+	xp_cost = 2
+	#The amount of experience spent will depend on the distance to the found object.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	xp_drain_from_distance_multiplier = 0.01
+	#How often experience will be spent for using the compass?
+	#Range: > 1
+	xp_drain_rate = 300
+
+[compass-functions]
+	#Prevents players from searching for blocks.
+	block_search = true
+	#Prevents players from searching containers (chests, furnaces, etc.) based on their contents.
+	container_search = true
+	#Prevents players from searching mobs based on their Spawn Eggs.
+	mob_search = true
+	#Prevents players from searching mobs based on their Spawn Eggs.
+	drop_search = true
+	#Prevents players from searching Villagers based on their trade items.
+	villager_search = true
+	#Prevents players from searching items lying on the ground.
+	item_entity_search = true
+	#Prevents players from searching fluids based on their buckets.
+	mob_fluid_search = true
+	#Prevents players from searching spawners.
+	mob_spawner_search = true
+	#Prevents players from searching entities based on their inventories (Minecarts).
+	mob_inventory_search = true
+	#Setting the value to true will make the compass search for all objects except those specified in the list.
+	#Setting it to false will make the compass search only for objects listed in the list.
+	black_list_filter_type = true
+	#Items and blocks in this list will be filtered based on the filtering mode set above.
+	#Example: ["minecraft.diamond_block", "minecraft.carrot", "twilightforest.cicada"]
+	filter_by_names = []
+	#Items and blocks in this list will be filtered based on their tags.
+	#Example: ["forge:stone"]
+	filter_by_tags = []
+	#Entities in this list will be filtered based on their names.
+	#Example: ["entity.minecraft.trader_llama", "entity.mowziesmobs.foliaath"]
+	filter_entities = []
+	#All items and blocks will (not) be searched if the mod they belong to is in the list below
+	mods_filter_items = []
+	#Entities in this list will be filtered based on what mod they are from.
+	#Example: ["creeperoverhaul", "deeperdarker", "minecraft"]
+	mods_filter_entities = []
+	#Anything related to the mods in the list below will (not) be searched by compass.
+	#Example: ["alexscaves", "ae2", "minecraft"]
+	mods_filter = []
+
+[compass-compatibility]
+	#Enable interaction with the REI panel
+	rei_compatibility = true
+	#Enable interaction with the JEI panel
+	jei_compatibility = true
+	#Enable the search for the contents of chests and minecarts from the Lootr mod that have not yet been opened by the player
+	lootr_compatibility = true
+	#Allows to show Jade tooltips regarding blocks/entities that you can/can't search for
+	jade_compatibility = true
+	#Allows to show TOP tooltips regarding blocks/entities that you can/can't search for
+	top_compatibility = true
+

@@ -1,9 +1,0 @@
-{
-  "type": "crafting_shapeless",
-  "ingredients": [{
-    "item": "miners_delight:tentacles"
-  }],
-  "result": {
-    "item": "oceansdelight:tentacles"
-  }
-}
