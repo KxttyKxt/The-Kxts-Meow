@@ -1,0 +1,37 @@
+{
+  "type": "crafting_shapeless",
+  
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_hoe"
+    },
+    {
+      "item": "overweight_farming:straw_hat"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "farmersdelight:red_mushroom_colony"
+    },
+    {
+      "item": "enigmaticlegacy:earth_heart"
+    },
+    {
+      "item": "farmersdelight:brown_mushroom_colony"
+    },
+    {
+      "item": "overweight_farming:overweight_nether_wart_block"
+    },
+    {
+      "item": "overweight_farming:overweight_golden_apple_block"
+    },
+    {
+      "item": "overweight_farming:vegetable_compost"
+    }
+  ],
+
+  "result": {
+    "item": "enigmaticlegacy:infinimeal"
+  }
+}
