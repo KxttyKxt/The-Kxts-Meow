@@ -22,14 +22,11 @@ Chance = 100
     "Block{farmersdelight:rice_panicles}[age=3]",
     "Block{farmersdelight:cabbages}[age=7]",
     
-    "Block{farmersrespite:tea_bush}[age=0]",
     "Block{farmersrespite:tea_bush}[age=1]",
     "Block{farmersrespite:tea_bush}[age=2]",
     "Block{farmersrespite:tea_bush}[age=3]",
 
     "Block{hexerei:sage_crop}[age=7]",
-
-    "Block{miners_delight:cave_carrots}[age=3]",
 
     "Block{neapolitan:adzuki_sprouts}[age=6,flowering=true]",
     "Block{neapolitan:adzuki_sprouts}[age=6,flowering=false]",
@@ -39,5 +36,4 @@ Chance = 100
     "Block{supplementaries:flax}[age=7,half=upper]",
 ]
 #Curiosity Mode: sneak + right click with on block to get info in chat
-Curiosity = false
 
