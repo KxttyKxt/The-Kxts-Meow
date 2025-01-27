@@ -1,0 +1,25 @@
+{
+    "values": [
+        "minecraft:grass_block",
+        "regions_unexplored:forest_grass_block",
+        "regions_unexplored:plains_grass_block",
+        "regions_unexplored:alpha_grass_block",
+        "regions_unexplored:stone_grass_block",
+        "regions_unexplored:deepslate_grass_block",
+        "regions_unexplored:chalk_grass_block",
+        "regions_unexplored:viridescent_nylium",
+        "regions_unexplored:deepslate_viridescent_nylium",
+        "regions_unexplored:prismoss",
+        "regions_unexplored:deeplsate_prismoss",
+
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "regions_unexplored:medium_grass",
+        "regions_unexplored:seeded_grass",
+        "regions_unexplored:seeded_tall_grass",
+        "regions_unexplored:steppe_grass",
+        "regions_unexplored:tall_steppe_grass",
+        "regions_unexplored:sandy_grass",
+        "regions_unexplored:sandy_tall_grass"
+    ]
+}

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-	
+    "#minecraft:saplings",
+    "#thekxtsmeow:grass_blocks_overworld",
+    "#thekxtsmeow:grass_blocks_nether"
   ]
 }

@@ -1,0 +1,17 @@
+{
+    "values": [
+        "#forge:mushrooms",
+        "#forge:fungi",
+
+        "farmersdelight:red_mushroom_colony",
+        "farmersdelight:brown_mushroom_colony",
+        "nethersdelight:crimson_fungus_colony",
+        "nethersdelight:warped_fungus_colony",
+        
+        "regions_unexplored:blue_bioshroom",
+        "regions_unexplored:green_bioshroom",
+        "regions_unexplored:pink_bioshroom",
+        "regions_unexplored:yellow_bioshroom"
+        
+    ]
+}

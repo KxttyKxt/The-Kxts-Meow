@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-	
+    "#minecraft:saplings",
+    "#thekxtsmeow:mushrooms",
+    "regions_unexplored:frozen_grass"
   ]
 }

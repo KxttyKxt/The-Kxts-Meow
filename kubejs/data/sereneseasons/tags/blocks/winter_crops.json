@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-	
+    "#minecraft:saplings",
+    "regions_unexplored:frozen_grass",
+    "#thekxtsmeow:grass_blocks_nether"
   ]
-}
+}   
