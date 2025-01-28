@@ -36,4 +36,5 @@ Chance = 100
     "Block{supplementaries:flax}[age=7,half=upper]",
 ]
 #Curiosity Mode: sneak + right click with on block to get info in chat
+Curiosity = false
 
