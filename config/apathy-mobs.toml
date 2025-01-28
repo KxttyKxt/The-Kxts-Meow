@@ -17,7 +17,7 @@
 	#Note: If a rule is not listed in the rule order, it will not be checked.
 	#Example: difficulty, revenge, playerSet
 	#Default: json, difficulty, boss, mobSet, tagSet, potionSet, playerSet, spawnType, revenge
-	ruleOrder = "boss, potionSet, mobSet, spawnType, revenge, difficulty"
+	ruleOrder = "boss, potionSet, spawnType, mobSet, revenge, difficulty"
 
 ["Difficulty Rule"]
 	#Comma-separated list of difficulties.
