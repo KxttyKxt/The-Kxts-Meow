@@ -1,11 +1,11 @@
 [Client]
     # What should be the style of the tooltip? 'numbers' means 'Durability: 30 / 100', 'text' means 'Durability: pristine/slight damaged/nearly broken', 'bar' means 'Durability: [███▒▒▒▒▒▒▒]'
     # Allowed values: BAR, NUMBERS, TEXT - Default: NUMBERS
-    tooltipStyle = "NUMBERS"
+    tooltipStyle = "TEXT"
 
     # Should the tooltip include the 'Durability:' hint?
     # Allowed values: true, false - Default: true
-    showTooltipHint = true
+    showTooltipHint = false
 
     # What colors should be used for the reactive part (numbers/text/bar characters) of the tooltip? 'base' means use the base color, 'gold' means always gold, 'varying' means green/orange/red depending on remaining durability.
     # Allowed values: BASE, GOLD, VARYING - Default: VARYING
